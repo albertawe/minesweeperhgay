@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_grey.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\square_grey.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_blue.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\square_blue.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\cool.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\cool.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\smile.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\smile.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sad.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\sad.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\icon.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\icon.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\surprise.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\surprise.png"
+    },
+    {
+        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\back.png",
+        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-nodpi\\back.png"
+    }
+]
