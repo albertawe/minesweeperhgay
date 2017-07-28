@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ib"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imgvw" />
+
+
+    <TextView
+        android:id="@+id/bytes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="choose your difficulty"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:gravity="top|center"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/imgvw"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/easy"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="easy"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_alignTop="@+id/bytes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp"
+         />
+
+    <TextView
+        android:id="@+id/hard"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="hard"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_below="@+id/med"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+         />
+
+    <TextView
+
+        android:id="@+id/med"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="medium"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/easy"
+        android:layout_alignStart="@+id/easy" />
+
+
+</RelativeLayout>

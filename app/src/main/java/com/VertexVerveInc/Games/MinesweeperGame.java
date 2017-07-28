@@ -19,6 +19,8 @@ import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.VertexVerveInc.Games.R;
+
 public class MinesweeperGame extends Activity
 {
 	private TextView txtMineCount;
@@ -28,7 +30,7 @@ public class MinesweeperGame extends Activity
 	private TableLayout mineField; // table layout to add mines to
 
 	private Block blocks[][]; // blocks for mine field	
-	private int blockDimension = 24; // width of each block
+	private int blockDimension = 48; // width of each block
 	private int blockPadding = 2; // padding between blocks
 
 	private int numberOfRowsInMineField = 9;

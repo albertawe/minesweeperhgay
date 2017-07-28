@@ -6,6 +6,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.widget.Button;
 
+
 public class Block extends Button
 {
 	private boolean isCovered; // is block covered yet
