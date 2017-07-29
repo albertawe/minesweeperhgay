@@ -33,9 +33,9 @@ public class MinesweeperGame3 extends Activity
     private int blockDimension = 48; // width of each block
     private int blockPadding = 2; // padding between blocks
 
-    private int numberOfRowsInMineField = 15;
-    private int numberOfColumnsInMineField = 15;
-    private int totalNumberOfMines = 30;
+    private int numberOfRowsInMineField = 12;
+    private int numberOfColumnsInMineField = 12;
+    private int totalNumberOfMines = 50;
 
     // timer to keep track of time elapsed
     private Handler timer = new Handler();

@@ -5,73 +5,119 @@
     android:layout_height="match_parent"
     android:background="@drawable/background">
 
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@drawable/ib"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
-        android:id="@+id/imgvw" />
 
-
-    <TextView
-        android:id="@+id/bytes"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="choose your difficulty"
-        android:textColor="#fff"
-        android:textSize="30dp"
-        android:gravity="top|center"
-        android:textStyle="bold"
+        android:layout_height="match_parent">
 
-        android:layout_below="@+id/imgvw"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/ib"
+                android:id="@+id/imgvw"
+                android:gravity="center"
+                android:layout_height="200dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1" />
 
-    <TextView
-        android:id="@+id/easy"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:text="easy"
-        android:textColor="#fff"
-        android:background="@drawable/border"
-        android:padding="15dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:layout_alignTop="@+id/bytes"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="54dp"
-         />
+            <TextView
+                android:id="@+id/bytes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="choose your difficulty"
+                android:textColor="#fff"
+                android:textSize="30dp"
 
-    <TextView
-        android:id="@+id/hard"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:text="hard"
-        android:textColor="#fff"
-        android:background="@drawable/border"
-        android:padding="15dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:layout_below="@+id/med"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="21dp"
-         />
+                android:gravity="top|center"
+                android:textStyle="bold"
 
-    <TextView
+                android:layout_marginTop="143dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="1" />
 
-        android:id="@+id/med"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:text="medium"
-        android:textColor="#fff"
-        android:background="@drawable/border"
-        android:padding="15dp"
-        android:layout_weight="1"
-        android:gravity="center"
-        android:layout_marginTop="18dp"
-        android:layout_below="@+id/easy"
-        android:layout_alignStart="@+id/easy" />
+            <TextView
+                android:id="@+id/easy"
+                android:layout_width="150dp"
+                android:text="easy \n 9x9 10 bomb"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_alignTop="@+id/bytes"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:layout_height="65dp" />
+
+            <TextView
+
+                android:id="@+id/med"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:text="medium \n 10x10 30 bomb"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/easy"
+                android:layout_alignStart="@+id/easy" />
+
+            <TextView
+                android:id="@+id/hard"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:text="hard \n 12x12 50 bomb"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_below="@+id/med"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                 />
+
+            <TextView
+                android:id="@+id/hardcore"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:text="hardcore \n 14x14 70 bomb"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/hard"
+                android:layout_alignStart="@+id/hard" />
+
+            <TextView
+                android:id="@+id/insane"
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:text="insane \n 15x15 80 bomb"
+                android:textColor="#fff"
+                android:background="@drawable/border"
+                android:padding="15dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/hardcore"
+                android:layout_alignStart="@+id/hardcore"
+                />
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
 
 
 </RelativeLayout>

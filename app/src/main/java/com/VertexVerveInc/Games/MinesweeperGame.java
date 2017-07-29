@@ -13,11 +13,13 @@ import android.view.View.OnLongClickListener;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TableRow.LayoutParams;
 import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ZoomControls;
 
 import com.VertexVerveInc.Games.R;
 
@@ -30,7 +32,7 @@ public class MinesweeperGame extends Activity
 	private TableLayout mineField; // table layout to add mines to
 
 	private Block blocks[][]; // blocks for mine field	
-	private int blockDimension = 48; // width of each block
+	private int blockDimension = 60; // width of each block
 	private int blockPadding = 2; // padding between blocks
 
 	private int numberOfRowsInMineField = 9;
@@ -51,7 +53,7 @@ public class MinesweeperGame extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
-		
+
 		txtMineCount = (TextView) findViewById(R.id.MineCount);
 		txtTimer = (TextView) findViewById(R.id.Timer);
 		
@@ -60,7 +62,7 @@ public class MinesweeperGame extends Activity
 				"fonts/lcd2mono.ttf");
 		txtMineCount.setTypeface(lcdFont);
 		txtTimer.setTypeface(lcdFont);
-		
+
 		btnSmile = (ImageButton) findViewById(R.id.Smiley);
 		btnSmile.setOnClickListener(new OnClickListener()
 		{

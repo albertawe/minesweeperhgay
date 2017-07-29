@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:2:1-71:12
 	package
 		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
@@ -16,7 +16,7 @@ ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:2:1-55:12
 	xmlns:android
 		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:7:5-53:19
+ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:7:5-69:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
@@ -76,6 +76,22 @@ ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:44:9-51:20
 		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:47:13-71
 	android:name
 		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:45:13-45
+activity#com.VertexVerveInc.Games.MinesweeperGame4
+ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:52:9-59:20
+	android:label
+		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:54:13-45
+	android:theme
+		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:55:13-71
+	android:name
+		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:53:13-45
+activity#com.VertexVerveInc.Games.MinesweeperGame5
+ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:60:9-67:20
+	android:label
+		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:62:13-45
+	android:theme
+		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:63:13-71
+	android:name
+		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:61:13-45
 uses-sdk
 INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:5:5-7:41

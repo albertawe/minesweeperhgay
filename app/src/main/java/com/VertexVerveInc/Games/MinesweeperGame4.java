@@ -21,7 +21,7 @@ import android.widget.Toast;
 
 import com.VertexVerveInc.Games.R;
 
-public class MinesweeperGame2 extends Activity
+public class MinesweeperGame4 extends Activity
 {
     private TextView txtMineCount;
     private TextView txtTimer;
@@ -30,12 +30,12 @@ public class MinesweeperGame2 extends Activity
     private TableLayout mineField; // table layout to add mines to
 
     private Block blocks[][]; // blocks for mine field
-    private int blockDimension = 48; // width of each block
+    private int blockDimension = 40; // width of each block
     private int blockPadding = 2; // padding between blocks
 
-    private int numberOfRowsInMineField = 10;
-    private int numberOfColumnsInMineField = 10;
-    private int totalNumberOfMines = 30;
+    private int numberOfRowsInMineField = 14;
+    private int numberOfColumnsInMineField = 14;
+    private int totalNumberOfMines = 70;
 
     // timer to keep track of time elapsed
     private Handler timer = new Handler();
