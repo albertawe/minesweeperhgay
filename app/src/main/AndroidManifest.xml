@@ -10,6 +10,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,12 +21,14 @@
         <activity
             android:name=".difficulty"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             >
 
         </activity>
         <activity
             android:name=".MinesweeperGame"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             >
 
 
@@ -33,6 +36,7 @@
         <activity
             android:name=".MinesweeperGame2"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             >
 
 
@@ -40,6 +44,7 @@
         <activity
             android:name=".MinesweeperGame3"
             android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             >
 
 
