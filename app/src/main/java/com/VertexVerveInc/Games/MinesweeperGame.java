@@ -3,6 +3,7 @@ package com.VertexVerveInc.Games;
 import java.util.Random;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
@@ -31,6 +32,8 @@ public class MinesweeperGame extends Activity
 	private TextView txtTimer;
 	private ImageButton btnSmile;
 
+	private boolean usedLife = false;
+
 	private TableLayout mineField; // table layout to add mines to
 
 	private Block blocks[][]; // blocks for mine field	
@@ -39,7 +42,7 @@ public class MinesweeperGame extends Activity
 
 	private int numberOfRowsInMineField = 9;
 	private int numberOfColumnsInMineField = 9;
-	private int totalNumberOfMines = 10;
+	private int totalNumberOfMines = 9;
 
 	// timer to keep track of time elapsed
 	private Handler timer = new Handler();
@@ -55,6 +58,13 @@ public class MinesweeperGame extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+
+		Intent i = getIntent();
+		if(i != null) {
+			numberOfRowsInMineField = i.getIntExtra("EXTRA_ROW", 9);
+			numberOfColumnsInMineField = i.getIntExtra("EXTRA_COLUMN", 9);
+			totalNumberOfMines = i.getIntExtra("EXTRA_BOMB", 9);
+		}
 
 		txtMineCount = (TextView) findViewById(R.id.MineCount);
 		txtTimer = (TextView) findViewById(R.id.Timer);
@@ -90,6 +100,7 @@ public class MinesweeperGame extends Activity
 		
 		minesToFind = totalNumberOfMines;
 		isGameOver = false;
+		usedLife = false;
 		secondsPassed = 0;
 	}
 
@@ -393,49 +404,50 @@ public class MinesweeperGame extends Activity
 
 	private void finishGame(int currentRow, int currentColumn)
 	{
-		isGameOver = true; // mark game as over
-		stopTimer(); // stop timer
-		isTimerStarted = false;
-		btnSmile.setBackgroundResource(R.drawable.sad);
+		if(usedLife) {
+			isGameOver = true; // mark game as over
+			stopTimer(); // stop timer
+			isTimerStarted = false;
+			btnSmile.setBackgroundResource(R.drawable.sad);
 
-		// show all mines
-		// disable all blocks
-		for (int row = 1; row < numberOfRowsInMineField + 1; row++)
-		{
-			for (int column = 1; column < numberOfColumnsInMineField + 1; column++)
-			{
-				// disable block
-				blocks[row][column].setBlockAsDisabled(false);
-				
-				// block has mine and is not flagged
-				if (blocks[row][column].hasMine() && !blocks[row][column].isFlagged())
-				{
-					// set mine icon
-					blocks[row][column].setMineIcon(false);
-				}
+			// show all mines
+			// disable all blocks
+			for (int row = 1; row < numberOfRowsInMineField + 1; row++) {
+				for (int column = 1; column < numberOfColumnsInMineField + 1; column++) {
+					// disable block
+					blocks[row][column].setBlockAsDisabled(false);
 
-				// block is flagged and doesn't not have mine
-				if (!blocks[row][column].hasMine() && blocks[row][column].isFlagged())
-				{
-					// set flag icon
-					blocks[row][column].setFlagIcon(false);
-				}
+					// block has mine and is not flagged
+					if (blocks[row][column].hasMine() && !blocks[row][column].isFlagged()) {
+						// set mine icon
+						blocks[row][column].setMineIcon(false);
+					}
 
-				// block is flagged
-				if (blocks[row][column].isFlagged())
-				{
-					// disable the block
-					blocks[row][column].setClickable(false);
+					// block is flagged and doesn't not have mine
+					if (!blocks[row][column].hasMine() && blocks[row][column].isFlagged()) {
+						// set flag icon
+						blocks[row][column].setFlagIcon(false);
+					}
+
+					// block is flagged
+					if (blocks[row][column].isFlagged()) {
+						// disable the block
+						blocks[row][column].setClickable(false);
+					}
 				}
 			}
+
+			// trigger mine
+			blocks[currentRow][currentColumn].triggerMine();
+
+			// show message
+			showDialog("You tried for " + Integer.toString(secondsPassed) + " seconds!", 200, false, false);
+			playBeep("pop.mp3");
+		}else {
+			usedLife = true;
+			blocks[currentRow][currentColumn].setMineIcon(false);
+			showDialog("You clicked on a mine! You have one last chance! But don't tap the already revealed bomb!", 200, false, false);
 		}
-
-		// trigger mine
-		blocks[currentRow][currentColumn].triggerMine();
-
-		// show message
-		showDialog("You tried for " + Integer.toString(secondsPassed) + " seconds!", 1000, false, false);
-		playBeep("pop.mp3");
 	}
 	public void playBeep(String soundfile) {
 		MediaPlayer m;

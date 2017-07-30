@@ -16,6 +16,14 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" android:exported="false" />
+            <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:exported="true" android:permission="com.google.android.c2dm.permission.SEND">
+                <intent-filter>
+                    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                    <category android:name="${applicationId}" />
+                </intent-filter>
+            </receiver>
 
         </activity>
         <activity
@@ -27,38 +35,6 @@
         </activity>
         <activity
             android:name=".MinesweeperGame"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            >
-
-
-        </activity>
-        <activity
-            android:name=".MinesweeperGame2"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            >
-
-
-        </activity>
-        <activity
-            android:name=".MinesweeperGame3"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            >
-
-
-        </activity>
-        <activity
-            android:name=".MinesweeperGame4"
-            android:label="@string/app_name"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            >
-
-
-        </activity>
-        <activity
-            android:name=".MinesweeperGame5"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
             >

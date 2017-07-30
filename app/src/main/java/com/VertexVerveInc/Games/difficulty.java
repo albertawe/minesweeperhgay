@@ -9,6 +9,18 @@ import android.widget.TextView;
 
 public class difficulty extends Activity {
 
+    private void start(final int row, final int column, final int bomb){
+        // TODO Auto-generated method stub
+        Intent pindah = new Intent(this,MinesweeperGame.class);
+//        Bundle extras = new Bundle();
+        pindah.putExtra("EXTRA_ROW", row);
+        pindah.putExtra("EXTRA_COLUMN", column);
+        pindah.putExtra("EXTRA_BOMB", bomb);
+//        pindah.putExtras(extras);
+        startActivity(pindah);
+        //menghubungkan antar activity dengan intent
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,21 +34,20 @@ public class difficulty extends Activity {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                Intent pindah = new Intent(difficulty.this,MinesweeperGame.class);
-                startActivity(pindah);
-                //menghubungkan antar activity dengan intent
-
+                int row = 9;
+                int column = 9;
+                int bomb = 10;
+                start(row, column, bomb);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                Intent pindah = new Intent(difficulty.this,MinesweeperGame2.class);
-                startActivity(pindah);
-                //menghubungkan antar activity dengan intent
+                int row = 10;
+                int column = 10;
+                int bomb = 30;
+                start(row, column, bomb);
 
             }
         });
@@ -44,10 +55,10 @@ public class difficulty extends Activity {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                Intent pindah = new Intent(difficulty.this,MinesweeperGame3.class);
-                startActivity(pindah);
-                //menghubungkan antar activity dengan intent
+                int row = 12;
+                int column = 12;
+                int bomb = 50;
+                start(row, column, bomb);
 
             }
         });
@@ -55,10 +66,10 @@ public class difficulty extends Activity {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                Intent pindah = new Intent(difficulty.this,MinesweeperGame4.class);
-                startActivity(pindah);
-                //menghubungkan antar activity dengan intent
+                int row = 14;
+                int column = 14;
+                int bomb = 70;
+                start(row, column, bomb);
 
             }
         });
@@ -66,10 +77,10 @@ public class difficulty extends Activity {
 
             @Override
             public void onClick(View arg0) {
-                // TODO Auto-generated method stub
-                Intent pindah = new Intent(difficulty.this,MinesweeperGame5.class);
-                startActivity(pindah);
-                //menghubungkan antar activity dengan intent
+                int row = 15;
+                int column = 15;
+                int bomb = 80;
+                start(row, column, bomb);
 
             }
         });

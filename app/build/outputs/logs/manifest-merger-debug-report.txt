@@ -1,109 +1,106 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:2:1-71:12
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:7:5-69:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:appcompat-v7:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:22:5-20
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:7:5-45:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gigabyte\.android\build-cache\0e3450328c18abf4f0ec666556b9ca63710bb1c5\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Gigabyte\.android\build-cache\79e04a20bc3da113720c1522f4cc26cde1e8c038\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Gigabyte\.android\build-cache\7a446447bb6d44441c4518d4cc873820df870f9a\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Gigabyte\.android\build-cache\88e69523cd120f2b259353070de08cff3176157d\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Gigabyte\.android\build-cache\fcbdd429a8163b1b17f739f09a7968bb2c201cd4\output\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:9:9-41
 	android:icon
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:8:9-38
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:8:9-38
 activity#com.VertexVerveInc.Games.MainActivity
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:10:9-20:20
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:10:9-28:20
 	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:12:13-45
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:12:13-45
 	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:13:13-71
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:13:13-71
 	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:11:13-41
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:11:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:15:13-18:29
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:15:13-18:29
 action#android.intent.action.MAIN
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:17:27-74
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:19:13-124
+	android:exported
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:19:97-121
+	android:name
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:19:23-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:20:13-26:24
+	android:exported
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:20:89-112
+	android:permission
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:20:113-173
+	android:name
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:20:23-88
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:21:17-25:33
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:22:21-85
+	android:name
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:22:29-82
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:23:21-90
+	android:name
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:23:29-87
+category#${applicationId}
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:24:21-65
+	android:name
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:24:31-62
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
 activity#com.VertexVerveInc.Games.difficulty
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:29:9-35:20
 	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:23:13-45
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:31:13-45
 	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:24:13-71
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:32:13-71
 	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:22:13-39
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:30:13-39
 activity#com.VertexVerveInc.Games.MinesweeperGame
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:28:9-35:20
+ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:36:9-43:20
 	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:30:13-45
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:38:13-45
 	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:31:13-71
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:39:13-71
 	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:29:13-44
-activity#com.VertexVerveInc.Games.MinesweeperGame2
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:36:9-43:20
-	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:38:13-45
-	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:39:13-71
-	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:37:13-45
-activity#com.VertexVerveInc.Games.MinesweeperGame3
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:44:9-51:20
-	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:46:13-45
-	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:47:13-71
-	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:45:13-45
-activity#com.VertexVerveInc.Games.MinesweeperGame4
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:52:9-59:20
-	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:54:13-45
-	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:55:13-71
-	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:53:13-45
-activity#com.VertexVerveInc.Games.MinesweeperGame5
-ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:60:9-67:20
-	android:label
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:62:13-45
-	android:theme
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:63:13-71
-	android:name
-		ADDED from E:\android\Source1\app\src\main\AndroidManifest.xml:61:13-45
+		ADDED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml:37:13-44
 uses-sdk
-INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\AndroidManifest.xml:20:5-43
+INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Gigabyte\.android\build-cache\0e3450328c18abf4f0ec666556b9ca63710bb1c5\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Gigabyte\.android\build-cache\79e04a20bc3da113720c1522f4cc26cde1e8c038\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\Gigabyte\.android\build-cache\7a446447bb6d44441c4518d4cc873820df870f9a\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\Gigabyte\.android\build-cache\88e69523cd120f2b259353070de08cff3176157d\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\Gigabyte\.android\build-cache\fcbdd429a8163b1b17f739f09a7968bb2c201cd4\output\AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] E:\android\Source1\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\Gigabyte\.android\build-cache\79e04a20bc3da113720c1522f4cc26cde1e8c038\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
-		INJECTED from E:\android\Source1\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\minesweeperhgay\app\src\main\AndroidManifest.xml
