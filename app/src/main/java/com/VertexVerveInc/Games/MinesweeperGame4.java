@@ -3,7 +3,9 @@ package com.VertexVerveInc.Games;
 import java.util.Random;
 
 import android.app.Activity;
+import android.content.res.AssetFileDescriptor;
 import android.graphics.Typeface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.Gravity;
@@ -431,6 +433,31 @@ public class MinesweeperGame4 extends Activity
 
         // show message
         showDialog("You tried for " + Integer.toString(secondsPassed) + " seconds!", 1000, false, false);
+        playBeep("pop.mp3");
+    }
+    public void playBeep(String soundfile) {
+        MediaPlayer m;
+        try {
+            m = new MediaPlayer();
+            // AssetManager mngr = getAssets();
+            if (m.isPlaying()) {
+                m.stop();
+                m.release();
+                m = new MediaPlayer();
+            }
+
+            // AssetFileDescriptor afd = getAssets().openFd(fileName);
+            AssetFileDescriptor descriptor = getAssets().openFd(soundfile);
+            m.setDataSource(descriptor.getFileDescriptor(),
+                    descriptor.getStartOffset(), descriptor.getLength());
+            descriptor.close();
+
+            m.prepare();
+            m.setVolume(1f, 1f);
+            // m.setLooping(true);
+            m.start();
+        } catch (Exception e) {
+        }
     }
 
 
