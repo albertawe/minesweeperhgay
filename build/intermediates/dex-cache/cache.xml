@@ -2,76 +2,22 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Gigabyte\.android\build-cache\fcbdd429a8163b1b17f739f09a7968bb2c201cd4\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\ACER-PC\.android\build-cache\340dfec780ce7a3c480dbd2710daab1875136517\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7bb4c12a499c163a03e0f744db9e7b2c36c45f00\classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\android\Source1\app\build\intermediates\pre-dexed\debug\classes_45a92509bb67b4624c21409f7517082eb5a98d6e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="E:\androidsdk\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="9a43b4b0a2874b6bbe8725b80f0bde231ad741a5">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9f9ca8448fa0fabf797e5a9c15a89df4147ffb35\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Gigabyte\.android\build-cache\fcbdd429a8163b1b17f739f09a7968bb2c201cd4\output\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_07be574e884392c5fab048b079964223e3564efc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_a5cd3fd5898f441fea771e8ac203b6a29d3d30e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Gigabyte\.android\build-cache\88e69523cd120f2b259353070de08cff3176157d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b5a5ea705ce10d5eec34572d28737d2723ac1d0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Gigabyte\.android\build-cache\7a446447bb6d44441c4518d4cc873820df870f9a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e0d8b049f6c950d23fc60ae5be65596acf3276e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Gigabyte\.android\build-cache\79e04a20bc3da113720c1522f4cc26cde1e8c038\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b48ebbfdf00cdcddeae82355ca46bfe54d26ca46\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\AndroidStudioProjects\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_6c2a284fdd61d0d8ac24aa3991d9cfbc35ef85c7\classes.dex" />
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\android\Source1\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_19a3654af071e92a832cac73ab1a8ab99f79dae5.jar" />
     </item>
 
 </items>

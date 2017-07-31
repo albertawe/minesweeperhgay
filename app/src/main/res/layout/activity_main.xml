@@ -66,6 +66,21 @@
         android:layout_marginTop="33dp"
         android:layout_below="@+id/play"
         android:layout_centerHorizontal="true" />
+
+                <ToggleButton
+                    android:background="@drawable/border"
+                    android:id="@+id/toggleSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onToggleClicked"
+                    android:textOn="Turn on music"
+                    android:textOff="Turn off music"
+                    android:alpha="0.6"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/background_dark" />
+
             </RelativeLayout>
         </LinearLayout>
     </ScrollView>

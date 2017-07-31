@@ -115,6 +115,7 @@
                 android:layout_below="@+id/hardcore"
                 android:layout_alignStart="@+id/hardcore"
                 />
+
         </RelativeLayout>
         </LinearLayout>
     </ScrollView>
