@@ -64,6 +64,7 @@ public class MinesweeperGame extends Activity
 			numberOfRowsInMineField = i.getIntExtra("EXTRA_ROW", 9);
 			numberOfColumnsInMineField = i.getIntExtra("EXTRA_COLUMN", 9);
 			totalNumberOfMines = i.getIntExtra("EXTRA_BOMB", 9);
+			blockDimension = i.getIntExtra("EXTRA_DIMENSION", 60);
 		}
 
 		txtMineCount = (TextView) findViewById(R.id.MineCount);

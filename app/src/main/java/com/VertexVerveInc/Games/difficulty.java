@@ -10,13 +10,14 @@ import android.widget.ToggleButton;
 
 public class difficulty extends Activity {
 
-    private void start(final int row, final int column, final int bomb){
+    private void start(final int row, final int column, final int bomb, final int dim){
         // TODO Auto-generated method stub
         Intent pindah = new Intent(this,MinesweeperGame.class);
 //        Bundle extras = new Bundle();
         pindah.putExtra("EXTRA_ROW", row);
         pindah.putExtra("EXTRA_COLUMN", column);
         pindah.putExtra("EXTRA_BOMB", bomb);
+        pindah.putExtra("EXTRA_DIMENSION", dim);
 //        pindah.putExtras(extras);
         startActivity(pindah);
         //menghubungkan antar activity dengan intent
@@ -39,7 +40,8 @@ public class difficulty extends Activity {
                 int row = 9;
                 int column = 9;
                 int bomb = 10;
-                start(row, column, bomb);
+                int dim = 60;
+                start(row, column, bomb, dim);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +51,8 @@ public class difficulty extends Activity {
                 int row = 10;
                 int column = 10;
                 int bomb = 30;
-                start(row, column, bomb);
+                int dim = 60;
+                start(row, column, bomb, dim);
 
             }
         });
@@ -60,7 +63,8 @@ public class difficulty extends Activity {
                 int row = 12;
                 int column = 12;
                 int bomb = 50;
-                start(row, column, bomb);
+                int dim = 50;
+                start(row, column, bomb, dim);
 
             }
         });
@@ -71,7 +75,8 @@ public class difficulty extends Activity {
                 int row = 14;
                 int column = 14;
                 int bomb = 70;
-                start(row, column, bomb);
+                int dim = 45;
+                start(row, column, bomb, dim);
 
             }
         });
@@ -82,7 +87,8 @@ public class difficulty extends Activity {
                 int row = 15;
                 int column = 15;
                 int bomb = 80;
-                start(row, column, bomb);
+                int dim = 40;
+                start(row, column, bomb, dim);
 
             }
         });
