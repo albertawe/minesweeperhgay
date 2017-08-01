@@ -12,7 +12,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
         <activity
-            android:name="com.VertexVerveInc.Games.MainActivity"
+            android:name="com.VertexVerveInc.Games.SplashScreen"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
@@ -20,7 +20,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
+        </activity>
+        <activity
+            android:name="com.VertexVerveInc.Games.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <receiver
                 android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
                 android:exported="false" />

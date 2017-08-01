@@ -468,12 +468,13 @@ containing a value of this type.
         public static final int cool=0x7f020003;
         public static final int ib=0x7f020004;
         public static final int icon=0x7f020005;
-        public static final int sad=0x7f020006;
-        public static final int smile=0x7f020007;
-        public static final int smiley_button_states=0x7f020008;
-        public static final int square_blue=0x7f020009;
-        public static final int square_grey=0x7f02000a;
-        public static final int surprise=0x7f02000b;
+        public static final int logosplash=0x7f020006;
+        public static final int sad=0x7f020007;
+        public static final int smile=0x7f020008;
+        public static final int smiley_button_states=0x7f020009;
+        public static final int square_blue=0x7f02000a;
+        public static final int square_grey=0x7f02000b;
+        public static final int surprise=0x7f02000c;
     }
     public static final class id {
         public static final int MineCount=0x7f070015;
@@ -494,6 +495,7 @@ containing a value of this type.
         public static final int packed=0x7f070003;
         public static final int parent=0x7f070000;
         public static final int play=0x7f070010;
+        public static final int progressBar1=0x7f070017;
         public static final int spread=0x7f070001;
         public static final int spread_inside=0x7f070004;
         public static final int sup=0x7f070011;
@@ -504,6 +506,7 @@ containing a value of this type.
         public static final int activity_difficulty=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int main=0x7f030002;
+        public static final int splashscreen=0x7f030003;
     }
     public static final class raw {
         public static final int bg=0x7f040000;

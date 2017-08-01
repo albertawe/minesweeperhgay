@@ -60,5 +60,6 @@ public class MainActivity extends Activity {
         // TODO Auto-generated method stub
         audioBackground.stop();
         MainActivity.this.finish();
+        System.exit(0);
     }
 }
