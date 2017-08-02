@@ -14,6 +14,7 @@
         <activity
             android:name="com.VertexVerveInc.Games.SplashScreen"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +25,7 @@
         <activity
             android:name="com.VertexVerveInc.Games.MainActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <receiver
                 android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
@@ -43,11 +45,13 @@
         <activity
             android:name="com.VertexVerveInc.Games.difficulty"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
         <activity
             android:name="com.VertexVerveInc.Games.MinesweeperGame"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
         </activity>
     </application>

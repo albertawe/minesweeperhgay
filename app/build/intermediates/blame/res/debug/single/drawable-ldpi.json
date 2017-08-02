@@ -1,10 +1,6 @@
 [
     {
-        "merged": "E:\\android\\Source1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
-        "source": "E:\\android\\Source1\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
-    },
-    {
-        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
-        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     }
 ]
