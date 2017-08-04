@@ -1,4 +1,7 @@
-#Mon Jul 31 02:26:42 ICT 2017
-base.0=D\:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=D\:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Mon Jul 31 14:06:16 ICT 2017
+base.0=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f7f4c08bbe1f56d1ebef32c66f5b4da17a3df775
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9a13a51263ccb9cb786e05e45d250a312a6aba0\\classes.dex
+base.1=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9a13a51263ccb9cb786e05e45d250a312a6aba0
+file.0=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f7f4c08bbe1f56d1ebef32c66f5b4da17a3df775\\classes.dex
