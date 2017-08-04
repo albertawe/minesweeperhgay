@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/ib"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:id="@+id/imgvw"
+        android:layout_height="300dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imgvw"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/sup"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:textColor="#fff"
+        android:background="@drawable/border"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/play"
+        android:layout_centerHorizontal="true" />
+
+                <ToggleButton
+                    android:background="@drawable/border"
+                    android:id="@+id/toggleSound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="onToggleClicked"
+                    android:textOn="Turn on music"
+                    android:textOff="Turn off music"
+                    android:alpha="0.6"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@android:color/background_dark" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
