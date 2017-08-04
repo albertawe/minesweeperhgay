@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Henry\\.android\\build-cache\\8af03574c34d71e12c3da9cb876556a401514e3c\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -158,5 +159,21 @@
     {
         "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Henry\\.android\\build-cache\\8af03574c34d71e12c3da9cb876556a401514e3c\\output\\res\\layout\\notification_template_part_time.xml"
+=======
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulty.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_difficulty.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreen.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\splashscreen.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_main.xml"
+>>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
     }
 ]

@@ -3,6 +3,7 @@
 
     <item
         is-multidex="true"
+<<<<<<< HEAD
         jar="D:\Project Android\MineSweeperHGAY\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -72,6 +73,41 @@
         revision="25.0.3"
         sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
         <dex dex="D:\Project Android\MineSweeperHGAY\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c4ed750a8eee07cd82963e9ffe09fd439634a4b0\classes.dex" />
+=======
+        jar="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="43ed59616b91484f2fc5f6f0be14efef6a81cb23">
+        <dex dex="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a209c52bd05178d0816466f2067ead8e99149847\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\SdkLocal\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_4b4bfcbfe60bd2a85714927ddc8ab735d8b5a7cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8801ac9a27ad2bb4936ab3579858279ddcfb1c91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\THIS IS PC\.android\build-cache\103f3661b1fbce5742cdb9e83b61c8a3ca793981\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e86dabe8ef7ac0c189e019966f63afa82875e43\classes.dex" />
+>>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
     </item>
 
 </items>

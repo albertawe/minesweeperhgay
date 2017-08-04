@@ -2,20 +2,22 @@ package com.VertexVerveInc.Games;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.ToggleButton;
 
 public class difficulty extends Activity {
 
-    private void start(final int row, final int column, final int bomb){
+    private void start(final int row, final int column, final int bomb, final int dim){
         // TODO Auto-generated method stub
         Intent pindah = new Intent(this,MinesweeperGame.class);
 //        Bundle extras = new Bundle();
         pindah.putExtra("EXTRA_ROW", row);
         pindah.putExtra("EXTRA_COLUMN", column);
         pindah.putExtra("EXTRA_BOMB", bomb);
+        pindah.putExtra("EXTRA_DIMENSION", dim);
 //        pindah.putExtras(extras);
         startActivity(pindah);
         //menghubungkan antar activity dengan intent
@@ -24,6 +26,7 @@ public class difficulty extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_difficulty);
         TextView btn1 =(TextView) findViewById(R.id.easy);
         TextView btn2 =(TextView) findViewById(R.id.med);
@@ -37,7 +40,8 @@ public class difficulty extends Activity {
                 int row = 9;
                 int column = 9;
                 int bomb = 10;
-                start(row, column, bomb);
+                int dim = 60;
+                start(row, column, bomb, dim);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +51,8 @@ public class difficulty extends Activity {
                 int row = 10;
                 int column = 10;
                 int bomb = 30;
-                start(row, column, bomb);
+                int dim = 60;
+                start(row, column, bomb, dim);
 
             }
         });
@@ -58,7 +63,8 @@ public class difficulty extends Activity {
                 int row = 12;
                 int column = 12;
                 int bomb = 50;
-                start(row, column, bomb);
+                int dim = 50;
+                start(row, column, bomb, dim);
 
             }
         });
@@ -69,7 +75,8 @@ public class difficulty extends Activity {
                 int row = 14;
                 int column = 14;
                 int bomb = 70;
-                start(row, column, bomb);
+                int dim = 45;
+                start(row, column, bomb, dim);
 
             }
         });
@@ -80,9 +87,12 @@ public class difficulty extends Activity {
                 int row = 15;
                 int column = 15;
                 int bomb = 80;
-                start(row, column, bomb);
+                int dim = 40;
+                start(row, column, bomb, dim);
 
             }
         });
     }
+
+
 }

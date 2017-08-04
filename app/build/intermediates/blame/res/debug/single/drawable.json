@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "C:\\Users\\Henry\\.android\\build-cache\\8af03574c34d71e12c3da9cb876556a401514e3c\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
@@ -114,5 +115,21 @@
     {
         "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "C:\\Users\\Henry\\.android\\build-cache\\8af03574c34d71e12c3da9cb876556a401514e3c\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+=======
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ib.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\ib.png"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\border.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logosplash.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\logosplash.png"
+>>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
     }
 ]

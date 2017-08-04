@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Mon Jul 31 14:05:58 ICT 2017
+=======
+#Wed Aug 02 14:13:19 ICT 2017
+>>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
