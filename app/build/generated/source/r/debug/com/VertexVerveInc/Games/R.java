@@ -477,36 +477,53 @@ containing a value of this type.
         public static final int surprise=0x7f02000c;
     }
     public static final class id {
-        public static final int MineCount=0x7f070015;
-        public static final int MineField=0x7f070016;
-        public static final int Smiley=0x7f070014;
-        public static final int Timer=0x7f070013;
+        public static final int MineCount=0x7f070023;
+        public static final int MineField=0x7f070024;
+        public static final int Smiley=0x7f070022;
+        public static final int Timer=0x7f070021;
         public static final int all=0x7f070005;
         public static final int basic=0x7f070006;
+        public static final int btn_back=0x7f070020;
+        public static final int btn_save_score=0x7f07001f;
+        public static final int button1=0x7f070011;
+        public static final int button2=0x7f070012;
+        public static final int button3=0x7f070013;
+        public static final int button4=0x7f070014;
+        public static final int button5=0x7f070015;
         public static final int bytes=0x7f07000a;
         public static final int chains=0x7f070007;
+        public static final int dialog_score=0x7f07001b;
         public static final int easy=0x7f07000b;
+        public static final int field_name=0x7f07001e;
         public static final int hard=0x7f07000d;
         public static final int hardcore=0x7f07000e;
         public static final int imgvw=0x7f070009;
         public static final int insane=0x7f07000f;
+        public static final int lv=0x7f07001a;
         public static final int med=0x7f07000c;
         public static final int none=0x7f070008;
         public static final int packed=0x7f070003;
         public static final int parent=0x7f070000;
-        public static final int play=0x7f070010;
-        public static final int progressBar1=0x7f070017;
+        public static final int play=0x7f070016;
+        public static final int progressBar1=0x7f070025;
         public static final int spread=0x7f070001;
         public static final int spread_inside=0x7f070004;
-        public static final int sup=0x7f070011;
-        public static final int toggleSound=0x7f070012;
+        public static final int sup=0x7f070017;
+        public static final int textView=0x7f07001c;
+        public static final int textView3=0x7f070010;
+        public static final int text_diff=0x7f070019;
+        public static final int toggleSound=0x7f070018;
+        public static final int txt_score=0x7f07001d;
         public static final int wrap=0x7f070002;
     }
     public static final class layout {
         public static final int activity_difficulty=0x7f030000;
-        public static final int activity_main=0x7f030001;
-        public static final int main=0x7f030002;
-        public static final int splashscreen=0x7f030003;
+        public static final int activity_highscore=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_score=0x7f030003;
+        public static final int dialog_score=0x7f030004;
+        public static final int main=0x7f030005;
+        public static final int splashscreen=0x7f030006;
     }
     public static final class raw {
         public static final int bg=0x7f040000;

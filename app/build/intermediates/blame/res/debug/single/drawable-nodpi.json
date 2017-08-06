@@ -1,67 +1,34 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\back.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\back.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\surprise.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\surprise.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\icon.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\icon.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\icon.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\icon.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_blue.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\square_blue.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_blue.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_blue.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sad.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\sad.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\cool.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\cool.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\surprise.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\surprise.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sad.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\sad.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\smile.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\smile.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\smile.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\smile.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_grey.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\square_grey.png"
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_grey.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_grey.png"
     },
     {
-        "merged": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\cool.png",
-        "source": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\drawable-nodpi\\cool.png"
-=======
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\cool.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\cool.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sad.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\sad.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_grey.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_grey.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\icon.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\icon.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\smile.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\smile.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\surprise.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\surprise.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\back.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\back.png"
-    },
-    {
-        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_blue.png",
-        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_blue.png"
->>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
+        "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\back.png",
+        "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\back.png"
     }
 ]

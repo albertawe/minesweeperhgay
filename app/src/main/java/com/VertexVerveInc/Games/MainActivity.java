@@ -42,6 +42,15 @@ public class MainActivity extends Activity {
             }
         });
 
+        TextView btn2 = (TextView) findViewById(R.id.sup);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, score_difficulty.class);
+                startActivity(i);
+            }
+        });
+
     }
     public void onToggleClicked(View view) {
         boolean on = ((ToggleButton) view).isChecked();

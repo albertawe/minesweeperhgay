@@ -10,7 +10,7 @@ import android.widget.ToggleButton;
 
 public class difficulty extends Activity {
 
-    private void start(final int row, final int column, final int bomb, final int dim){
+    private void start(final int row, final int column, final int bomb, final int dim, final String difficulty){
         // TODO Auto-generated method stub
         Intent pindah = new Intent(this,MinesweeperGame.class);
 //        Bundle extras = new Bundle();
@@ -41,7 +41,8 @@ public class difficulty extends Activity {
                 int column = 9;
                 int bomb = 10;
                 int dim = 60;
-                start(row, column, bomb, dim);
+                String difficulty = "Easy";
+                start(row, column, bomb, dim, difficulty);
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
@@ -52,7 +53,8 @@ public class difficulty extends Activity {
                 int column = 10;
                 int bomb = 30;
                 int dim = 60;
-                start(row, column, bomb, dim);
+                String difficulty = "Medium";
+                start(row, column, bomb, dim, difficulty);
 
             }
         });
@@ -64,7 +66,8 @@ public class difficulty extends Activity {
                 int column = 12;
                 int bomb = 50;
                 int dim = 50;
-                start(row, column, bomb, dim);
+                String difficulty = "Hard";
+                start(row, column, bomb, dim, difficulty);
 
             }
         });
@@ -76,7 +79,8 @@ public class difficulty extends Activity {
                 int column = 14;
                 int bomb = 70;
                 int dim = 45;
-                start(row, column, bomb, dim);
+                String difficulty = "Hardcore";
+                start(row, column, bomb, dim, difficulty);
 
             }
         });
@@ -88,7 +92,8 @@ public class difficulty extends Activity {
                 int column = 15;
                 int bomb = 80;
                 int dim = 40;
-                start(row, column, bomb, dim);
+                String difficulty = "Insane";
+                start(row, column, bomb, dim, difficulty);
 
             }
         });

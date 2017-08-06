@@ -3,8 +3,11 @@ package com.VertexVerveInc.Games;
 import java.util.Random;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -13,6 +16,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -43,6 +48,7 @@ public class MinesweeperGame extends Activity
 	private int numberOfRowsInMineField = 9;
 	private int numberOfColumnsInMineField = 9;
 	private int totalNumberOfMines = 9;
+	private String difficulty = "";
 
 	// timer to keep track of time elapsed
 	private Handler timer = new Handler();
@@ -65,6 +71,7 @@ public class MinesweeperGame extends Activity
 			numberOfColumnsInMineField = i.getIntExtra("EXTRA_COLUMN", 9);
 			totalNumberOfMines = i.getIntExtra("EXTRA_BOMB", 9);
 			blockDimension = i.getIntExtra("EXTRA_DIMENSION", 60);
+			difficulty = i.getStringExtra("EXTRA_DIFF");
 		}
 
 		txtMineCount = (TextView) findViewById(R.id.MineCount);
@@ -400,7 +407,56 @@ public class MinesweeperGame extends Activity
 		}
 
 		// show message
-		showDialog("You won in " + Integer.toString(secondsPassed) + " seconds!", 1000, false, true);
+//		showDialog("You won in " + Integer.toString(secondsPassed) + " seconds!", 1000, false, true);
+		showDialogScore();
+	}
+
+	private void showDialogScore() {
+		AlertDialog.Builder mBuilder = new AlertDialog.Builder(this);
+		View mView 	= getLayoutInflater().inflate(R.layout.dialog_score, null);
+
+		TextView txt_score = (TextView) mView.findViewById(R.id.txt_score);
+		final EditText field_name = (EditText) mView.findViewById(R.id.field_name);
+		Button btn_save_score = (Button) mView.findViewById(R.id.btn_save_score);
+		Button btn_back = (Button) mView.findViewById(R.id.btn_back);
+
+		txt_score.setText((Integer)secondsPassed + " seconds.");
+
+		mBuilder.setView(mView);
+		final AlertDialog dialog = mBuilder.create();
+
+		btn_save_score.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+
+				String name = field_name.getText().toString();
+
+				SQLiteDatabase myDB = openOrCreateDatabase("leaderboard", MODE_PRIVATE, null);
+				try{
+//                    myDB = openOrCreateDatabase("leaderboard", MODE_PRIVATE, null);
+
+					Cursor cursor = myDB.rawQuery("SELECT * FROM scores", null);
+					System.out.println(cursor.getCount());
+
+					myDB.execSQL("CREATE TABLE IF NOT EXISTS scores (name TEXT, score INT, difficulty TEXT);");
+
+					String query = "INSERT INTO scores (name, score, difficulty) VALUES ('" + name + "', " + secondsPassed + ", '" + difficulty + "');";
+					myDB.execSQL(query);
+					showDialog("Score saved!", 500, false, true);
+					dialog.dismiss();
+				}catch(Exception e){
+					System.out.println(e);
+				}
+			}
+		});
+
+		btn_back.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View view) {
+				dialog.dismiss();
+			}
+		});
+		dialog.show();
 	}
 
 	private void finishGame(int currentRow, int currentColumn)

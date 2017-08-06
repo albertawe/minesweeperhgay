@@ -1,17 +1,4 @@
-<<<<<<< HEAD
-#Mon Jul 31 14:06:16 ICT 2017
-base.0=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f7f4c08bbe1f56d1ebef32c66f5b4da17a3df775
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9a13a51263ccb9cb786e05e45d250a312a6aba0\\classes.dex
-base.1=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_d9a13a51263ccb9cb786e05e45d250a312a6aba0
-file.0=D\:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f7f4c08bbe1f56d1ebef32c66f5b4da17a3df775\\classes.dex
-=======
-#Wed Aug 02 14:13:28 ICT 2017
-base.0=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a209c52bd05178d0816466f2067ead8e99149847
-renamed.1=classes2.dex
+#Mon Aug 07 02:24:26 ICT 2017
+base.0=D\:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.1=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8801ac9a27ad2bb4936ab3579858279ddcfb1c91\\classes.dex
-base.1=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8801ac9a27ad2bb4936ab3579858279ddcfb1c91
-file.0=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_a209c52bd05178d0816466f2067ead8e99149847\\classes.dex
->>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
+file.0=D\:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

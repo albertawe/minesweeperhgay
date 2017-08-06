@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "outputFile": "D:\\Project Android\\MineSweeperHGAY\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-=======
-        "outputFile": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
->>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
+        "outputFile": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 108
                 },
                 "from": {
-<<<<<<< HEAD
-                    "file": "D:\\Project Android\\MineSweeperHGAY\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-=======
-                    "file": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
->>>>>>> 25fb2da26b4a141e3ccdecb7f0b095ef36d8c75a
+                    "file": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
