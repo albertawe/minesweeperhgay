@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     }

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bg.mp3",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\raw\\bg.mp3"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bg.mp3",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\raw\\bg.mp3"
     }

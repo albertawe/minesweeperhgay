@@ -4,8 +4,20 @@
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\surprise.png"
     },
     {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\sad.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\sad.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\icon.png",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\icon.png"
+    },
+    {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\icon.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\icon.png"
+    },
+    {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\cool.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\cool.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_blue.png",
@@ -24,11 +36,31 @@
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\smile.png"
     },
     {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_blue.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_blue.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_grey.png",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_grey.png"
     },
     {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\surprise.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\surprise.png"
+    },
+    {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\square_grey.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\square_grey.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\back.png",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\back.png"
+    },
+    {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\smile.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\smile.png"
+    },
+    {
+        "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi\\back.png",
+        "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-nodpi\\back.png"
     }
 ]
