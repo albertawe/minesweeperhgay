@@ -43,7 +43,7 @@ public class Score extends Activity {
         try {
 
             //Create a Database if doesnt exist otherwise Open It
-
+//            this.deleteDatabase("leaderboard");
             myDB = this.openOrCreateDatabase("leaderboard", MODE_PRIVATE, null);
 
             //Create table in database if it doesnt exist allready

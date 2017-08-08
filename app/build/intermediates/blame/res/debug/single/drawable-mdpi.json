@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
     },

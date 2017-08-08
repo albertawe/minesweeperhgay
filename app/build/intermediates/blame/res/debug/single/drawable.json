@@ -4,12 +4,24 @@
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable\\logosplash.png"
     },
     {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ib.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\ib.png"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logosplash.png",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\drawable\\logosplash.png"
     },
     {
         "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ib.png",
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable\\ib.png"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\border.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\border.xml",
@@ -26,6 +38,10 @@
     {
         "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background.jpg",
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable\\background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logosplash.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable\\logosplash.png"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ib.png",

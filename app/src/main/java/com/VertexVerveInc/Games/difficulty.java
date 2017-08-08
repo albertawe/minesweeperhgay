@@ -18,6 +18,7 @@ public class difficulty extends Activity {
         pindah.putExtra("EXTRA_COLUMN", column);
         pindah.putExtra("EXTRA_BOMB", bomb);
         pindah.putExtra("EXTRA_DIMENSION", dim);
+        pindah.putExtra("EXTRA_DIFF", difficulty);
 //        pindah.putExtras(extras);
         startActivity(pindah);
         //menghubungkan antar activity dengan intent

@@ -1,0 +1,7 @@
+#Tue Aug 08 23:02:32 ICT 2017
+base.0=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_4b4bfcbfe60bd2a85714927ddc8ab735d8b5a7cf
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1e86dabe8ef7ac0c189e019966f63afa82875e43\\classes.dex
+base.1=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1e86dabe8ef7ac0c189e019966f63afa82875e43
+file.0=C\:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\constraint-layout-solver-1.0.2_4b4bfcbfe60bd2a85714927ddc8ab735d8b5a7cf\\classes.dex

@@ -8,8 +8,20 @@
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_score.xml"
     },
     {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulty.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_difficulty.xml"
+    },
+    {
         "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_highscore.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_highscore.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_score.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\dialog_score.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_score.xml",
@@ -18,6 +30,10 @@
     {
         "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_score.xml",
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\layout\\dialog_score.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\splashscreen.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\splashscreen.xml"
     },
     {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
@@ -52,7 +68,19 @@
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_highscore.xml"
     },
     {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_score.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_score.xml"
+    },
+    {
         "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulty.xml",
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_difficulty.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]

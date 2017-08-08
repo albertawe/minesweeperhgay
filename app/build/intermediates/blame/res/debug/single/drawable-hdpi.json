@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
         "merged": "E:\\android\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
     },

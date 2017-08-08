@@ -433,14 +433,15 @@ public class MinesweeperGame extends Activity
 
 				SQLiteDatabase myDB = openOrCreateDatabase("leaderboard", MODE_PRIVATE, null);
 				try{
-//                    myDB = openOrCreateDatabase("leaderboard", MODE_PRIVATE, null);
+                    myDB = openOrCreateDatabase("leaderboard", MODE_PRIVATE, null);
 
 					Cursor cursor = myDB.rawQuery("SELECT * FROM scores", null);
 					System.out.println(cursor.getCount());
 
 					myDB.execSQL("CREATE TABLE IF NOT EXISTS scores (name TEXT, score INT, difficulty TEXT);");
 
-					String query = "INSERT INTO scores (name, score, difficulty) VALUES ('" + name + "', " + secondsPassed + ", '" + difficulty + "');";
+					String query = "INSERT INTO scores (name, score, difficulty) VALUES ('" + name + "', " +
+							secondsPassed + ", '" + difficulty + "');";
 					myDB.execSQL(query);
 					showDialog("Score saved!", 500, false, true);
 					dialog.dismiss();
@@ -448,7 +449,7 @@ public class MinesweeperGame extends Activity
 					System.out.println(e);
 				}
 			}
-		});
+        });
 
 		btn_back.setOnClickListener(new View.OnClickListener() {
 			@Override

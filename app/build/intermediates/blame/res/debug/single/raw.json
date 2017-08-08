@@ -4,6 +4,10 @@
         "source": "E:\\android\\minesweeperhgay\\app\\src\\main\\res\\raw\\bg.mp3"
     },
     {
+        "merged": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bg.mp3",
+        "source": "C:\\Users\\THIS IS PC\\Downloads\\minesweeperhgay\\app\\src\\main\\res\\raw\\bg.mp3"
+    },
+    {
         "merged": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bg.mp3",
         "source": "D:\\AndroidStudioProjects\\minesweeperhgay\\app\\src\\main\\res\\raw\\bg.mp3"
     }
