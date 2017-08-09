@@ -50,7 +50,7 @@ public class Block extends Button
 	public void setNumberOfSurroundingMines(int number)
 	{
 		this.setBackgroundResource(R.drawable.square_grey);
-		
+
 		updateNumber(number);
 	}
 
@@ -58,11 +58,12 @@ public class Block extends Button
 	// set block as disabled/opened if false is passed
 	public void setMineIcon(boolean enabled)
 	{
-		this.setText("M");
+//		this.setText("M");
+		this.setBackgroundResource(R.drawable.mine);
 
 		if (!enabled)
 		{
-			this.setBackgroundResource(R.drawable.square_grey);
+			this.setBackgroundResource(R.drawable.mine);
 			this.setTextColor(Color.RED);
 		}
 		else
@@ -75,11 +76,11 @@ public class Block extends Button
 	// set block as disabled/opened if false is passed
 	public void setFlagIcon(boolean enabled)
 	{
-		this.setText("F");
-
+//		this.setText("F");
+		this.setBackgroundResource(R.drawable.flag);
 		if (!enabled)
 		{
-			this.setBackgroundResource(R.drawable.square_grey);
+//			this.setBackgroundResource(R.drawable.square_grey);
 			this.setTextColor(Color.RED);
 		}
 		else
@@ -93,7 +94,7 @@ public class Block extends Button
 	public void setQuestionMarkIcon(boolean enabled)
 	{
 		this.setText("?");
-		
+
 		if (!enabled)
 		{
 			this.setBackgroundResource(R.drawable.square_grey);
@@ -188,7 +189,7 @@ public class Block extends Button
 				case 8:
 					this.setTextColor(Color.rgb(71, 71, 71));
 					break;
-				case 9: 
+				case 9:
 					this.setTextColor(Color.rgb(205, 205, 0));
 					break;
 			}

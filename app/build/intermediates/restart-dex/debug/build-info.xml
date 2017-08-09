@@ -2,46 +2,91 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="COLD"
+    build-mode="FULL"
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1502211066641"
+    timestamp="1502264239068"
     token="2242460457718142490"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="138" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="65" />
+        duration="1421" />
     <task
         name="verifier"
-        duration="82" />
+        duration="293" />
 
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+        type="SPLIT" />
     <artifact
         location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1502210069890"
+        timestamp="1502264239068"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
+            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
             location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -53,28 +98,8 @@
             location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
-        <artifact
             location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1502211066641"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\THIS IS PC\Downloads\minesweeperhgay\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

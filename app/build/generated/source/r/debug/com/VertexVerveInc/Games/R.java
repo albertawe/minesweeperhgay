@@ -466,15 +466,17 @@ containing a value of this type.
         public static final int background=0x7f020001;
         public static final int border=0x7f020002;
         public static final int cool=0x7f020003;
-        public static final int ib=0x7f020004;
-        public static final int icon=0x7f020005;
-        public static final int logosplash=0x7f020006;
-        public static final int sad=0x7f020007;
-        public static final int smile=0x7f020008;
-        public static final int smiley_button_states=0x7f020009;
-        public static final int square_blue=0x7f02000a;
-        public static final int square_grey=0x7f02000b;
-        public static final int surprise=0x7f02000c;
+        public static final int flag=0x7f020004;
+        public static final int ib=0x7f020005;
+        public static final int icon=0x7f020006;
+        public static final int logosplash=0x7f020007;
+        public static final int mine=0x7f020008;
+        public static final int sad=0x7f020009;
+        public static final int smile=0x7f02000a;
+        public static final int smiley_button_states=0x7f02000b;
+        public static final int square_blue=0x7f02000c;
+        public static final int square_grey=0x7f02000d;
+        public static final int surprise=0x7f02000e;
     }
     public static final class id {
         public static final int MineCount=0x7f070023;
